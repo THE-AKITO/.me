@@ -212,7 +212,7 @@
     <div class="preview" id="preview"></div>
     <div class="link-container" id="linkContainer" style="display: none;">
       <input type="text" id="imageURL" readonly>
-      <button id="copyButton">Copy Link</button>
+      <button id="copyButton">𝑪𝑶𝑷𝒀</button>
     </div>
   </div>
 
@@ -273,9 +273,9 @@
     copyButton.addEventListener('click', () => {
       imageURLInput.select();
       document.execCommand('copy');
-      copyButton.innerHTML = 'Copied ✓';
+      copyButton.innerHTML = '𝐶𝑂𝑃𝐼𝐸𝐷';
       setTimeout(() => {
-        copyButton.innerHTML = 'Copy Link';
+        copyButton.innerHTML = '𝑪𝑶𝑷𝒀';
       }, 2000);
     });
   </script>
